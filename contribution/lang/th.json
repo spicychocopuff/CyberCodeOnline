@@ -24,7 +24,7 @@
  	"ui": {
  	 	"blackMarket": {
  	 	 	"selectItemButton": {
- 	 	 	 	"trans": "พิมพ์และขาย",
+ 	 	 	 	"trans": "สรรค์สร้างและขาย",
  	 	 	 	"eng": "Print And Sell"
  	 	 	}
  	 	},
@@ -38,7 +38,7 @@
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"amount"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "${amount} Bitcoin จะได้รับเงินฝากเข้าบัญชีแก๊งของคุณสิ่งนี้ไม่สามารถย้อนกลับได้",
+ 	 	 	 	 	"trans": "${amount} Bitcoin จะได้รับเงินฝากเข้าบัญชีแก๊งของคุณ สิ่งนี้ไม่สามารถแก้ไขย้อนกลับได้",
  	 	 	 	 	"eng": "${amount} bitcoin will be deposit into your gang account, this cannot be reversed"
  	 	 	 	}
  	 	 	},
@@ -49,18 +49,18 @@
  	 	 	"editMotto": {
  	 	 	 	"modal": {
  	 	 	 	 	"title": {
- 	 	 	 	 	 	"trans": "กรุณากรอกคำขวัญแก๊งค์ของคุณ",
+ 	 	 	 	 	 	"trans": "กรุณากรอกคำขวัญแก๊งของคุณ",
  	 	 	 	 	 	"eng": "Please enter your gang motto"
  	 	 	 	 	}
  	 	 	 	},
  	 	 	 	"button": {
- 	 	 	 	 	"trans": "แก้ไขคำขวัญแก๊งค์",
+ 	 	 	 	 	"trans": "แก้ไขคำขวัญแก๊ง",
  	 	 	 	 	"eng": "Edit Gang Motto"
  	 	 	 	}
  	 	 	},
  	 	 	"updateImage": {
  	 	 	 	"button": {
- 	 	 	 	 	"trans": "อัปเดตภาพแก๊งค์",
+ 	 	 	 	 	"trans": "อัปเดตภาพแก๊ง",
  	 	 	 	 	"eng": "Update Gang Image"
  	 	 	 	}
  	 	 	},
@@ -105,7 +105,7 @@
  	 	 	},
  	 	 	"occupation": {
  	 	 	 	"noClan": {
- 	 	 	 	 	"trans": "ไม่มีแก๊งค์ได้ครอบครองบริเวณนี้",
+ 	 	 	 	 	"trans": "ยังไม่มีแก๊งใดครอบครองพื้นที่นี้",
  	 	 	 	 	"eng": "No gang has occupied this area yet"
  	 	 	 	}
  	 	 	},
@@ -128,7 +128,7 @@
  	 	 	"colors": {
  	 	 	 	"win": {
  	 	 	 	 	"title": {
- 	 	 	 	 	 	"trans": "ถอดรหัสที่ประสบความสำเร็จ",
+ 	 	 	 	 	 	"trans": "ถอดรหัสสำเร็จ",
  	 	 	 	 	 	"eng": "Decryption successful"
  	 	 	 	 	},
  	 	 	 	 	"description": {
@@ -137,12 +137,12 @@
  	 	 	 	 	}
  	 	 	 	},
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "คุณพบกล่องยกเค้าที่ล็อคพร้อมปุ่มกดสีคุณควรจะสามารถปลดล็อกได้ด้วยลำดับสีที่ถูกต้อง",
+ 	 	 	 	 	"trans": "คุณพบกล่องของขวัญที่ล็อคอยู่ด้วยแม่กุญแจพร้อมปุ่มสี คุณน่าจะสามารถปลดล็อกมันได้ด้วยการกดตามลำดับสีที่ถูกต้อง",
  	 	 	 	 	"eng": "You found a locked loot box with color keypad, you should be able to unlock it with the correct sequence of colors."
  	 	 	 	},
  	 	 	 	"progress": {
  	 	 	 	 	"title": {
- 	 	 	 	 	 	"trans": "ปลดล็อคความคืบหน้า",
+ 	 	 	 	 	 	"trans": "ความคืบหน้าการปลดล็อค",
  	 	 	 	 	 	"eng": "Unlock progress"
  	 	 	 	 	}
  	 	 	 	},
@@ -160,7 +160,7 @@
  	 	 	 	 	 	"eng": "Decryption failed"
  	 	 	 	 	},
  	 	 	 	 	"description": {
- 	 	 	 	 	 	"trans": "คลิกที่ลำดับสีที่ถูกต้องเพื่อปลดล็อก",
+ 	 	 	 	 	 	"trans": "คลิกสีตามลำดับที่ถูกต้องเพื่อปลดล็อก",
  	 	 	 	 	 	"eng": "Click on the correct color sequence to unlock"
  	 	 	 	 	},
  	 	 	 	 	"button": {
@@ -174,7 +174,7 @@
  	 	},
  	 	"supportUkraine": {
  	 	 	"description": {
- 	 	 	 	"trans": "คนของยูเครนรัสเซียและโลกทั้งโลกกำลังทุกข์ทรมานเพราะความทะเยอทะยานของชายคนหนึ่ง \\n ทำให้ความรักใช้ประโยชน์ไม่ใช่สงคราม",
+ 	 	 	 	"trans": "คนของยูเครน รัสเซียและโลกทั้งโลกกำลังทุกข์ทรมานเพราะความทะเยอทะยานของชายคนหนึ่ง \\n ใช้ความรักให้เกิดประโยชน์ ไม่ใช่สงคราม",
  	 	 	 	"eng": "People of Ukraine, Russia and the whole world are suffering because one man's ambition.\\n Make love exploit, not war."
  	 	 	}
  	 	},
@@ -188,7 +188,7 @@
  	 	 	 	"eng": "Deposit"
  	 	 	},
  	 	 	"depositDesc": {
- 	 	 	 	"trans": "ใส่ Bitcoins เข้าธนาคาร",
+ 	 	 	 	"trans": "นำ Bitcoins เข้าธนาคาร",
  	 	 	 	"eng": "Put Bitcoins into bank"
  	 	 	},
  	 	 	"withdraw": {
@@ -196,30 +196,30 @@
  	 	 	 	"eng": "Withdraw"
  	 	 	},
  	 	 	"withdrawDesc": {
- 	 	 	 	"trans": "เอา Bitcoins ออกจากธนาคาร",
+ 	 	 	 	"trans": "นำ Bitcoins ออกจากธนาคาร",
  	 	 	 	"eng": "Take Bitcoins out of bank"
  	 	 	},
  	 	 	"putItemToVault": {
- 	 	 	 	"trans": "ฝากไอเท็ม",
+ 	 	 	 	"trans": "ฝากไอเทม",
  	 	 	 	"eng": "Deposit Item"
  	 	 	},
  	 	 	"putItemToVaultDesc": {
- 	 	 	 	"trans": "ใส่ไอเท็มลงในห้องนิรภัยของคุณ",
+ 	 	 	 	"trans": "นำไอเทมเข้าห้องนิรภัยของคุณ",
  	 	 	 	"eng": "Put items into your vault"
  	 	 	},
  	 	 	"takeItemFromVault": {
- 	 	 	 	"trans": "ถอนไอเท็ม",
+ 	 	 	 	"trans": "ถอนไอเทม",
  	 	 	 	"eng": "Withdraw Item"
  	 	 	},
  	 	 	"takeItemFromVaultDesc": {
- 	 	 	 	"trans": "นำไอเท็มออกจากห้องนิรภัยของคุณ",
+ 	 	 	 	"trans": "นำไอเทมออกจากห้องนิรภัยของคุณ",
  	 	 	 	"eng": "Take items out from your vault"
  	 	 	},
  	 	 	"upgradeSlot": {
  	 	 	 	"vars": [
  	 	 	 	 	"upgradeToSlot"
  	 	 	 	],
- 	 	 	 	"trans": "อัปเกรดเป็น ${upgradeToSlot} สล็อต",
+ 	 	 	 	"trans": "อัปเกรดเป็น ${upgradeToSlot} ช่อง",
  	 	 	 	"eng": "UPGRADE TO ${upgradeToSlot} SLOTS"
  	 	 	},
  	 	 	"upgradeSlotDesc": {
@@ -248,7 +248,7 @@
  	 	 	 	}
  	 	 	},
  	 	 	"noBalance": {
- 	 	 	 	"trans": "คุณไม่สามารถถอนได้เมื่อคุณไม่มีเงินที่ฝากไว้",
+ 	 	 	 	"trans": "คุณไม่สามารถถอนได้หากคุณไม่มีเงินที่ฝากไว้",
  	 	 	 	"eng": "You can't withdraw when you have no balance."
  	 	 	}
  	 	},
@@ -276,7 +276,7 @@
  	 	},
  	 	"generalCaptcha": {
  	 	 	"story": {
- 	 	 	 	"trans": "คุณพบตู้เซฟล็อคเก่าดูเหมือนว่ามีการโพสต์ด้วยข้อความบางอย่างที่เขียนไว้",
+ 	 	 	 	"trans": "คุณพบตู้เซฟเก่าที่ล็อคอยู่ ดูเหมือนว่าจะมีกระดาษโน้ตแปะอยู่พร้อมกับข้อความบางอย่างที่ถูกเขียนไว้",
  	 	 	 	"eng": "You found an old locked safe box, there seems like a post-it with some text written on it."
  	 	 	},
  	 	 	"title": {
@@ -294,7 +294,7 @@
  	 	},
  	 	"chat": {
  	 	 	"reconnecting": {
- 	 	 	 	"trans": "การเชื่อมต่อใหม่",
+ 	 	 	 	"trans": "กำลังเชื่อมต่อใหม่",
  	 	 	 	"eng": "Reestablishing connection"
  	 	 	},
  	 	 	"notAtBottom": {
@@ -309,19 +309,19 @@
  	 	 	 	"eng": "Replying to ${playerName}"
  	 	 	},
  	 	 	"linksNotAllowed": {
- 	 	 	 	"trans": "ไม่อนุญาตลิงก์",
+ 	 	 	 	"trans": "ไม่อนุญาตให้วางลิงก์",
  	 	 	 	"eng": "Links are not allowed"
  	 	 	},
  	 	 	"spamBlock": {
- 	 	 	 	"trans": "โปรดอย่าส่งข้อความที่ไร้ความหมายสแปมจะถูกปิดเสียง",
+ 	 	 	 	"trans": "กรุณาอย่าส่งข้อความที่ไร้ความหมาย การสแปมจะให้คุณถูกระงับการส่งข้อความ",
  	 	 	 	"eng": "Please do not send meaningless message, spams will be muted."
  	 	 	},
  	 	 	"repeatBlock": {
- 	 	 	 	"trans": "โปรดอย่าส่งข้อความเดียวกันซ้ำ ๆ สแปมจะถูกปิดเสียง",
+ 	 	 	 	"trans": "กรุณาอย่าส่งข้อความเดียวกันซ้ำ ๆ การสแปมจะให้คุณถูกระงับการส่งข้อความ",
  	 	 	 	"eng": "Please do not send the same message repeatedly, spams will be muted."
  	 	 	},
  	 	 	"shortChatBlock": {
- 	 	 	 	"trans": "โปรดอย่าส่งข้อความสั้นลองประโยคที่ยาวขึ้นแทน",
+ 	 	 	 	"trans": "กรุณาอย่าส่งข้อความสั้นๆ ลองส่งเป็นประโยคที่ยาวขึ้นแทน",
  	 	 	 	"eng": "Please do not send short messages, try a longer sentence instead."
  	 	 	},
  	 	 	"underlevelChatBlock": {
@@ -365,7 +365,7 @@
  	 	},
  	 	"chatPreview": {
  	 	 	"notConnected": {
- 	 	 	 	"trans": "ระบบการแชทไม่ได้เชื่อมต่อ",
+ 	 	 	 	"trans": "ไม่ได้เชื่อมต่อระบบแชท",
  	 	 	 	"eng": "chat system not connected"
  	 	 	}
  	 	},
@@ -400,20 +400,20 @@
  	 	"equipment": {
  	 	 	"lowPrintLevelTip": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "ระดับการปริ้นต่ำ",
+ 	 	 	 	 	"trans": "ระดับการสรรค์สร้างต่ำ",
  	 	 	 	 	"eng": "Low Printing Rank"
  	 	 	 	}
  	 	 	},
  	 	 	"lowPrintLevelTip2": {
- 	 	 	 	"trans": "เพิ่มระดับการปริ้นของคุณเพื่อสร้างอาวุธที่ทรงพลังมากขึ้นโดยการปริ้นแคชอุปกรณ์",
+ 	 	 	 	"trans": "เพิ่มระดับการสรรค์สร้างของคุณเพื่อสร้างอาวุธที่ทรงพลังมากขึ้นโดยการสรรค์สร้างแคชอุปกรณ์",
  	 	 	 	"eng": "Increase your Printing Rank to create more powerful weapons by printing more caches"
  	 	 	},
  	 	 	"lowPrintLevelTip3": {
- 	 	 	 	"trans": "หรือโดยการพิมพ์อัตโนมัติและขายแคชของคุณในตลาดมืด",
+ 	 	 	 	"trans": "หรือโดยการสรรค์สร้างอัตโนมัติและขายแคชของคุณในตลาดมืด",
  	 	 	 	"eng": "Or by auto print and selling your caches in the Black Market"
  	 	 	},
  	 	 	"quickSlots": {
- 	 	 	 	"trans": "ชอร์ตคัต",
+ 	 	 	 	"trans": "ควิกสล็อต",
  	 	 	 	"eng": "Quick Slots"
  	 	 	},
  	 	 	"equipped": {
@@ -424,13 +424,13 @@
  	 	"quickSlot": {
  	 	 	"unbindModal": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "ปลดชอร์ตคัต?",
+ 	 	 	 	 	"trans": "ปลดควิกสล็อต?",
  	 	 	 	 	"eng": "Unbind quick slot?"
  	 	 	 	}
  	 	 	},
  	 	 	"bindModal": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "เลือกรายการที่ใช้งานได้เพื่อผูกกับชอร์ตคัต",
+ 	 	 	 	 	"trans": "เลือกรายการที่ใช้งานได้เพื่อผูกกับควิกสล็อต",
  	 	 	 	 	"eng": "Select a usable item to bind to a quick slot"
  	 	 	 	}
  	 	 	}
@@ -445,7 +445,7 @@
  	 	 	 	"eng": "Dungeon List"
  	 	 	},
  	 	 	"links": {
- 	 	 	 	"trans": "ลิงค์",
+ 	 	 	 	"trans": "ลิงก์",
  	 	 	 	"eng": "links"
  	 	 	},
  	 	 	"premiumShop": {
@@ -461,7 +461,7 @@
  	 	 	 	"eng": "Leaderboard"
  	 	 	},
  	 	 	"tutorial": {
- 	 	 	 	"trans": "เกี่ยวกับการสอน",
+ 	 	 	 	"trans": "บทแนะนำ",
  	 	 	 	"eng": "Tutorial"
  	 	 	},
  	 	 	"settings": {
@@ -476,7 +476,7 @@
  	 	 	 	 	 	"timeSkipMinutes",
  	 	 	 	 	 	"timeSkipCost"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "Global Skip (${timeSkipMinutes} ขั้นต่ำราคา ${timeSkipCost})",
+ 	 	 	 	 	"trans": "Global Skip (${timeSkipMinutes} ขั้นต่ำ ราคา ${timeSkipCost})",
  	 	 	 	 	"eng": "Global Skip (${timeSkipMinutes} Min, Cost ${timeSkipCost} Units)"
  	 	 	 	},
  	 	 	 	"description": {
@@ -507,7 +507,7 @@
  	 	 	 	 	"eng": "Confirm use skip?"
  	 	 	 	},
  	 	 	 	"subtitle": {
- 	 	 	 	 	"trans": "Global Skip จะเร่งเวลาให้ผู้เล่นทุกคนปฏิบัติงาน AFK",
+ 	 	 	 	 	"trans": "Global Skip จะเร่งเวลาให้ผู้เล่นทุกคนปฏิบัติภารกิจ AFK",
  	 	 	 	 	"eng": "Global Skip will skip the waiting time for all players performing AFK task"
  	 	 	 	}
  	 	 	},
@@ -531,13 +531,13 @@
  	 	},
  	 	"list": {
  	 	 	"longPressToMultiSelect": {
- 	 	 	 	"trans": "กดค้างไว้เพื่อมัลติเลือก",
+ 	 	 	 	"trans": "กดค้างไว้เพื่อเลือกหลายรายการ",
  	 	 	 	"eng": "Long press to multi-select"
  	 	 	}
  	 	},
  	 	"inventory": {
  	 	 	"items": {
- 	 	 	 	"trans": "ไอเท็ม",
+ 	 	 	 	"trans": "ไอเทม",
  	 	 	 	"eng": "items"
  	 	 	},
  	 	 	"secretKeys": {
@@ -574,7 +574,7 @@
  	 	 	 	 	"eng": "Create Lore"
  	 	 	 	},
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "ไม่มีเรื่องราวชุมชนสำหรับรายการนี้ แต่เป็นคนแรกที่สร้างมันขึ้นมา",
+ 	 	 	 	 	"trans": "ไม่มีเรื่องราวชุมชนสำหรับรายการนี้ โปรดเป็นคนแรกที่สร้างมันขึ้นมา",
  	 	 	 	 	"eng": "There is no community lore for this item yet, be the first to create one for it."
  	 	 	 	}
  	 	 	},
@@ -606,7 +606,7 @@
  	 	 	 	 	"eng": "Malfunctioned"
  	 	 	 	},
  	 	 	 	"instruction": {
- 	 	 	 	 	"trans": "ไอเท็มนี้เสียหาย นำไปให้ร้านอาวุธเพื่อการซ่อมแซม",
+ 	 	 	 	 	"trans": "ไอเท็มนี้เสียหาย กรุณานำไปให้ร้านอาวุธเพื่อการซ่อมแซม",
  	 	 	 	 	"eng": "This item is broken, bring it to Weapon Smith for repair"
  	 	 	 	}
  	 	 	},
@@ -618,7 +618,7 @@
  	 	 	 	]
  	 	 	},
  	 	 	"areaEffect": {
- 	 	 	 	"trans": "[AOE] Area of Effect ผลกระทบของไอเท็มนี้จะมีผลกับพันธมิตรที่ต่อสู้กับคุณ",
+ 	 	 	 	"trans": "[AOE] Area of Effect ผลกระทบของไอเท็มนี้จะมีผลกับพันธมิตรที่ต่อสู้ด้วยกับคุณ",
  	 	 	 	"eng": "[AOE] Area of Effect, the effect of this item will apply allies in combat with you."
  	 	 	},
  	 	 	"equip": {
@@ -663,7 +663,7 @@
  	 	 	},
  	 	 	"factoryReset": {
  	 	 	 	"confirmation": {
- 	 	 	 	 	"trans": "การทำเช่นนี้จะรีเซ็ตการสอบเทียบทั้งหมดในไอเท็มของคุณ ทำให้สามารถซื้อขายได้อีกครั้ง \n       คุณแน่ใจหรือว่าต้องการดำเนินการต่อ?",
+ 	 	 	 	 	"trans": "การทำเช่นนี้จะรีเซ็ตการปรับปรุงทั้งหมดในไอเท็มของคุณ ทำให้สามารถซื้อขายได้อีกครั้ง \n       คุณแน่ใจหรือว่าต้องการดำเนินการต่อ?",
  	 	 	 	 	"eng": "Doing this will reset all calibration on your item. It will also make it tradable again. \r\n      Are you sure you want to proceed?"
  	 	 	 	},
  	 	 	 	"trans": "รีเซ็ตเป็นค่าจากโรงงาน",
@@ -680,7 +680,7 @@
  	 	 	 	"eng": "You don't have any secret keys"
  	 	 	},
  	 	 	"noKeysSubtitle": {
- 	 	 	 	"trans": "คุณสามารถรับกุญแจลับจากดันเจี้ยน",
+ 	 	 	 	"trans": "คุณสามารถรับกุญแจลับได้จากดันเจี้ยน",
  	 	 	 	"eng": "You can obtain secret keys from Dungeons"
  	 	 	}
  	 	},
@@ -1032,7 +1032,7 @@
  	 	"quest": {
  	 	 	"dynamicTutorial": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "บทช่วยสอน",
+ 	 	 	 	 	"trans": "วิธีเล่น",
  	 	 	 	 	"eng": "Tutorials"
  	 	 	 	},
  	 	 	 	"printingTooLow": {
@@ -1174,13 +1174,13 @@
  	 	 	 	}
  	 	 	},
  	 	 	"content": {
- 	 	 	 	"trans": "หากคุณมีคำถามใด ๆ โปรดติดต่อ Dexter โดยตรงผ่าน Discord อย่างเป็นทางการ (ลิงก์สามารถพบได้ในเมนูลอยน้ำ -> ลิงก์) หรืออีเมลไปที่ ching.huang.dexter@gmail.com",
+ 	 	 	 	"trans": "หากคุณมีคำถามใด ๆ โปรดติดต่อ Dexter โดยตรงผ่าน Discord อย่างเป็นทางการ (ลิงก์สามารถพบได้ในเมนูทั้งหมด -> ลิงก์) หรืออีเมลไปที่ ching.huang.dexter@gmail.com",
  	 	 	 	"eng": "If you have any questions please feel free to contact Dexter directly via official Discord (Link can be found in Floating Menu -> Links) or email to ching.huang.dexter@gmail.com"
  	 	 	}
  	 	},
  	 	"tipsBox": {
  	 	 	"title": {
- 	 	 	 	"trans": "เคล็ดลับโปร",
+ 	 	 	 	"trans": "เคล็ดลับมือโปร",
  	 	 	 	"eng": "Pro Tips"
  	 	 	},
  	 	 	"description": {
@@ -1196,7 +1196,7 @@
  	 	},
  	 	"tutorial": {
  	 	 	"title": {
- 	 	 	 	"trans": "แบบฝึกสอน",
+ 	 	 	 	"trans": "วิธีเล่น",
  	 	 	 	"eng": "Tutorial"
  	 	 	}
  	 	},
@@ -1231,7 +1231,7 @@
  	 	},
  	 	"setting": {
  	 	 	"langWarning": {
- 	 	 	 	"trans": "แพคภาษานี้เป็นโอเพนซอร์ส ข้อความอาจจะไม่ถูกแปลโดยสมบูรณ์ และสามารถมีข้อผิดพลาดได้บ้าง (รวมถึงแปลงงๆ บ้าง ) โปรดเข้ามาแก้ไขและมีส่วนร่วมได้ที่ Github ของพวกเรา",
+ 	 	 	 	"trans": "แพคภาษานี้เป็นโอเพนซอร์ส ข้อความอาจจะไม่ถูกแปลโดยสมบูรณ์ และสามารถมีข้อผิดพลาดได้บ้าง (รวมถึงแปลงงๆ บ้าง) โปรดเข้ามาแก้ไขและมีส่วนร่วมได้ที่ Github ของพวกเรา",
  	 	 	 	"eng": "This language pack is open source and contributed by our players, the text may not be fully translated and could contain mistakes. please feel free to edit and contribute from our Github page"
  	 	 	},
  	 	 	"langGithub": {
@@ -1256,7 +1256,7 @@
  	 	 	 	 	"eng": "Disable Attack Timing Bar"
  	 	 	 	},
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "การปิดใช้งานแถบจับเวลาการโจมตีจะไม่ได้รับความเสียหายเป็นพิเศษ",
+ 	 	 	 	 	"trans": "การปิดใช้งานแถบการโจมตีจะทำให้การโจมตีไม่ได้เพิ่มความเสียหายพิเศษ",
  	 	 	 	 	"eng": "Disabling attack timing bar will not grant extra damage"
  	 	 	 	}
  	 	 	},
@@ -1280,11 +1280,11 @@
  	 	 	},
  	 	 	"disableChatEffect": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "ปิดใช้งานแชท",
+ 	 	 	 	 	"trans": "ปิดใช้งานเอฟเฟคแชท",
  	 	 	 	 	"eng": "Disable Chat Effect"
  	 	 	 	},
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "ปิดการใช้งานหากแท็บแชทล่าช้าระหว่างการข้าม",
+ 	 	 	 	 	"trans": "ปิดการใช้งานหากแท็บแชทล่าช้าระหว่างการ skip ",
  	 	 	 	 	"eng": "Disable if chat tab lags during skips"
  	 	 	 	}
  	 	 	},
@@ -1293,7 +1293,7 @@
  	 	 	 	"eng": "Receive Gang Notification"
  	 	 	},
  	 	 	"receiveGlobalNotification": {
- 	 	 	 	"trans": "รับการแจ้งเตือนบัฟระดับโลก",
+ 	 	 	 	"trans": "รับการแจ้งเตือนบัฟ Global",
  	 	 	 	"eng": "Receive Global Buff Notification"
  	 	 	},
  	 	 	"forceMobileMode": {
@@ -1416,7 +1416,7 @@
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"percent"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "คุณแน่ใจหรือไม่ว่าต้องการปรับเทียบรายการนี้ด้วย ${percent} โอกาสล้มเหลวในการทำลายล้าง?",
+ 	 	 	 	 	"trans": "คุณแน่ใจหรือไม่ว่าต้องการปรับปรุงรายการนี้ด้วย ${percent} โอกาสล้มเหลวในการทำลายล้าง?",
  	 	 	 	 	"eng": "Are you sure you want to calibrate this item with ${percent}% destructive failure chance?"
  	 	 	 	}
  	 	 	}
@@ -1434,7 +1434,7 @@
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"cost"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "การกำหนดอันดับของแก๊งค์จะทำให้คุณเสียค่าใช้จ่าย ${cost} BTC และต้องการการรีสตาร์ทเกมเพื่อดูการเปลี่ยนแปลง",
+ 	 	 	 	 	"trans": "การกำหนดอันดับของแก๊งจะทำให้คุณเสียค่าใช้จ่าย ${cost} BTC และต้องการการรีสตาร์ทเกมเพื่อดูการเปลี่ยนแปลง",
  	 	 	 	 	"eng": "Assigning a gang rank will cost you ${cost} btc and require game restart to see the change"
  	 	 	 	},
  	 	 	 	"input": {
@@ -1448,7 +1448,7 @@
  	 	 	 	 	 	 	 	"minLength",
  	 	 	 	 	 	 	 	"maxLength"
  	 	 	 	 	 	 	],
- 	 	 	 	 	 	 	"trans": "ชื่ออันดับจะต้องอยู่ระหว่างอักขระ ${minLength} และ ${maxLength}",
+ 	 	 	 	 	 	 	"trans": "ชื่ออันดับจะต้องอยู่ระหว่างอักขระ ${minLength} และ ${maxLength} ตัวอักษร",
  	 	 	 	 	 	 	"eng": "Rank name must be between ${minLength} and ${maxLength} characters"
  	 	 	 	 	 	}
  	 	 	 	 	}
@@ -1470,7 +1470,7 @@
  	 	 	 	 	"eng": "Assign Rank"
  	 	 	 	},
  	 	 	 	"kickPlayer": {
- 	 	 	 	 	"trans": "ผู้เล่นเตะ",
+ 	 	 	 	 	"trans": "เตะผู้เล่น",
  	 	 	 	 	"eng": "kick player"
  	 	 	 	}
  	 	 	},
@@ -1509,7 +1509,7 @@
  	 	 	 	}
  	 	 	},
  	 	 	"deleteGang": {
- 	 	 	 	"trans": "ลบแก๊งค์",
+ 	 	 	 	"trans": "ลบแก๊ง",
  	 	 	 	"eng": "Delete Gang"
  	 	 	}
  	 	},
@@ -1538,13 +1538,13 @@
  	 	 	 	 	"eng": "Dungeons"
  	 	 	 	},
  	 	 	 	"des": {
- 	 	 	 	 	"trans": "ในดันเจี้ยน พลังชีวิตของคุณจะไม่รีเซ็ตจากการต่อสู้ในแต่ละครั้งและศัตรูแข็งแกร่งขึ้น แต่มีค่าสบการณ์และอุปกรณ์ที่ดี",
+ 	 	 	 	 	"trans": "ในดันเจี้ยน พลังชีวิตของคุณจะไม่รีเซ็ตจากการต่อสู้ในแต่ละครั้งและศัตรูจะแข็งแกร่งมาก แต่มักจะดรอปค่าประสบการณ์และอุปกรณ์ที่ดีกว่า",
  	 	 	 	 	"eng": "In dungeons, you will not heal after each fight, and enemies are stronger, but there are more exp and loots"
  	 	 	 	}
  	 	 	},
  	 	 	"underMaintenance": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "ดันเจี้ยนภายใต้การบำรุงรักษา",
+ 	 	 	 	 	"trans": "ดันเจี้ยนอยู่ภายใต้การบำรุงรักษา",
  	 	 	 	 	"eng": "Dungeons Under Maintenance"
  	 	 	 	},
  	 	 	 	"des": {
@@ -1553,10 +1553,10 @@
  	 	 	 	}
  	 	 	},
  	 	 	"noHealingPrompt": {
- 	 	 	 	"trans": "อาจซื้อรายการรักษาบางอย่างก่อน?",
+ 	 	 	 	"trans": "บางทีคุณอาจจะควรซื้อไอเทมรักษาบางสักหน่อยก่อน?",
  	 	 	 	"eng": "Maybe buy some healing item first?",
  	 	 	 	"des": {
- 	 	 	 	 	"trans": "ดูเหมือนว่าคุณจะไม่เจ็บปวดกับคุณซื้อจาก Trinoky Mart ในเมืองก่อนที่จะเข้าสู่ดันเจี้ยนเนื่องจากคุณจะไม่ฟื้นคืนชีพหลังจากการต่อสู้ในคุกใต้ดิน",
+ 	 	 	 	 	"trans": "ดูเหมือนว่าคุณจะไม่มียาแก้ปวดอยู่กับตัวเลยนะ คุณสามารถหาซื้อได้จาก Trinoky Mart ในเมืองก่อนที่จะเข้าสู่ดันเจี้ยน เพราะพลังชีวิตของคุณจะไม่ฟื้นฟูเองหากคุณต่อสู้ในดันเจี้ยน",
  	 	 	 	 	"eng": "Seems like you dont have any Pain Away with you, purchase it from Trinoky Mart in the city first before entering dungeons, since you will not regen after battles in dungeon"
  	 	 	 	},
  	 	 	 	"cancel": {
@@ -1600,7 +1600,7 @@
  	 	 	},
  	 	 	"donationTiers": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "เทียร์บริจาค",
+ 	 	 	 	 	"trans": "ระดับชั้นการบริจาค",
  	 	 	 	 	"eng": "Donation Tiers"
  	 	 	 	}
  	 	 	}
@@ -1611,11 +1611,11 @@
  	 	 	 	"eng": "Daily Reward"
  	 	 	},
  	 	 	"coupon": {
- 	 	 	 	"trans": "คูปองรับสิทธิ์",
+ 	 	 	 	"trans": "รับคูปอง",
  	 	 	 	"eng": "Claim Coupon"
  	 	 	},
  	 	 	"referral": {
- 	 	 	 	"trans": "โปรแกรมการอ้างอิง",
+ 	 	 	 	"trans": "แนะนำเพื่อน",
  	 	 	 	"eng": "Referral Program"
  	 	 	},
  	 	 	"skipQueue": {
@@ -1638,21 +1638,21 @@
  	 	 	},
  	 	 	"hasRefererCheckbox": {
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "ตรวจสอบเฉพาะหากคุณมีผู้อ้างอิง (ไม่บังคับ)",
+ 	 	 	 	 	"trans": "โปรดเช็คเฉพาะเมื่อคุณมีผู้แนะนำ (ไม่บังคับ)",
  	 	 	 	 	"eng": "Only check if you have a referer (Optional)"
  	 	 	 	},
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "ฉันมีผู้อ้างอิง",
+ 	 	 	 	 	"trans": "ฉันมีผู้แนะนำ",
  	 	 	 	 	"eng": "I have a referer"
  	 	 	 	}
  	 	 	},
  	 	 	"refererModal": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "ใครอ้างถึงคุณ",
+ 	 	 	 	 	"trans": "ใครแนะนำให้คุณ",
  	 	 	 	 	"eng": "Who referred you?"
  	 	 	 	},
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "กรุณาค้นหาและเลือกผู้เล่นที่อ้างถึงคุณ",
+ 	 	 	 	 	"trans": "กรุณาค้นหาและเลือกผู้เล่นที่แนะนำคุณ",
  	 	 	 	 	"eng": "Please search and select the player who referred you"
  	 	 	 	}
  	 	 	},
@@ -1661,7 +1661,7 @@
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"name"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "คุณได้ตั้งค่า ${name} เป็นผู้อ้างอิงของคุณ",
+ 	 	 	 	 	"trans": "คุณได้ตั้งค่า ${name} เป็นผู้แนะนำของคุณ",
  	 	 	 	 	"eng": "You have set ${name} as your referer"
  	 	 	 	}
  	 	 	},
@@ -1804,16 +1804,16 @@
  	 	 	 	 	"eng": "Core not found"
  	 	 	 	},
  	 	 	 	"subTitle": {
- 	 	 	 	 	"trans": "กรุณาใส่แกนสอบเทียบ",
+ 	 	 	 	 	"trans": "กรุณาใส่แกนปรับปรุง",
  	 	 	 	 	"eng": "Please insert Calibration Core"
  	 	 	 	}
  	 	 	},
  	 	 	"activate": {
- 	 	 	 	"trans": "กรุณาใส่แกนสอบเทียบ",
+ 	 	 	 	"trans": "กรุณาใส่แกนปรับปรุง",
  	 	 	 	"eng": "Insert Core"
  	 	 	},
  	 	 	"activateDescription": {
- 	 	 	 	"trans": "ต้องมีการสอบเทียบหลักในการปรับเทียบอุปกรณ์",
+ 	 	 	 	"trans": "ต้องมีแกนปรับปรุงในการปรับปรุงอุปกรณ์",
  	 	 	 	"eng": "A Calibration Core is required to calibrate equipment"
  	 	 	},
  	 	 	"activating": {
@@ -1841,7 +1841,7 @@
  	 	 	 	"eng": "Please select an item to calibrate"
  	 	 	},
  	 	 	"upgradeButton": {
- 	 	 	 	"trans": "เริ่มการปรับเทียบ",
+ 	 	 	 	"trans": "เริ่มการปรับปรุง",
  	 	 	 	"eng": "Calibrate"
  	 	 	}
  	 	},
@@ -1935,7 +1935,7 @@
  	 	 	 	"eng": "Equipment Cache not found"
  	 	 	},
  	 	 	"subTitle": {
- 	 	 	 	"trans": "รวบรวมแคชจากศัตรูและดันเจี้ยนเพื่อปริ้นอาวุธและชุดเกราะใหม่ของคุณ",
+ 	 	 	 	"trans": "รวบรวมแคชจากศัตรูและดันเจี้ยนเพื่อสรรค์สร้างอาวุธและชุดเกราะใหม่ของคุณ",
  	 	 	 	"eng": "gather the caches from enemies and dungeons to print your new weapons and armor"
  	 	 	}
  	 	},
@@ -2047,7 +2047,7 @@
  	 	 	 	"eng": "time skip"
  	 	 	},
  	 	 	"calibration": {
- 	 	 	 	"trans": "การปรับเทียบ",
+ 	 	 	 	"trans": "การปรับปรุง",
  	 	 	 	"eng": "calibration"
  	 	 	},
  	 	 	"inventory": {
@@ -5525,7 +5525,7 @@
  	 	 	 	"eng": "You will be MUTED if you breach any of the rules"
  	 	 	},
  	 	 	"footer2": {
- 	 	 	 	"trans": "รายการทั้งหมดของกฎสามารถพบได้ในโปรไฟล์> บทช่วยสอน> กฎ",
+ 	 	 	 	"trans": "รายการทั้งหมดของกฎสามารถพบได้ในโปรไฟล์ > วิธีเล่น > กฎ",
  	 	 	 	"eng": "Full list of rules can be found in Profile > Tutorials > Rules"
  	 	 	},
  	 	 	"agreeToggle": {
@@ -5551,7 +5551,7 @@
  	 	},
  	 	"contributionModal": {
  	 	 	"title": {
- 	 	 	 	"trans": "ผู้เล่นมีส่วนร่วมเนื้อหา",
+ 	 	 	 	"trans": "เนื้อหาที่ผู้เล่นมีส่วนร่วม",
  	 	 	 	"eng": "Player contributed content"
  	 	 	},
  	 	 	"description": {
@@ -5587,7 +5587,7 @@
  	 	 	 	"eng": "Unofficial translation"
  	 	 	},
  	 	 	"description1": {
- 	 	 	 	"trans": "เมื่อเกมนี้ทำโดยคนเดียวเท่านั้นมันเป็นเรื่องยากมากแปลภาษาทั้งหมดอย่างถูกต้อง แต่ฉันกำลังทำงานเพื่อเพิ่มการแปลเพิ่มเติม :)",
+ 	 	 	 	"trans": "เกมนี้นั้นถูกสร้างโดยแค่คนคนเดียว ซึ่งมันเป็นเรื่องที่ยากมากที่จะแปลทุกภาษาอย่างถูกต้อง แต่ฉันกำลังทำงานอย่างหนักเพื่อเพิ่มการแปลภาษาเพิ่มเติม :)",
  	 	 	 	"eng": "As this game is made by only one person, it's very difficult translate all languages correctly, but I am working on adding more translations :)"
  	 	 	},
  	 	 	"description": {
@@ -5661,7 +5661,7 @@
  	 	},
  	 	"review": {
  	 	 	"title1": {
- 	 	 	 	"trans": "ฉัน Dexter ผู้พัฒนาเกมนี้และฉันหวังว่าจะได้รับประสบการณ์ของคุณจนถึงตอนนี้",
+ 	 	 	 	"trans": "ฉัน Dexter ผู้พัฒนาเกมนี้และฉันอยากจะทราบถึงประสบการณ์ที่ได้รับของคุณจนถึงตอนนี้",
  	 	 	 	"eng": "I'm Dexter, the developer of this game, and I hope to know your experience so far."
  	 	 	},
  	 	 	"title2": {
@@ -5670,13 +5670,13 @@
  	 	 	},
  	 	 	"badReview": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "ฉันเสียใจมากโปรดแจ้งให้เราทราบว่าฉันสามารถปรับปรุงได้ที่ไหน",
+ 	 	 	 	 	"trans": "ฉันเสียใจมาก โปรดแจ้งให้ฉันทราบว่าฉันสามารถปรับปรุงได้อย่างไร",
  	 	 	 	 	"eng": "I am so sorry, please let me know where I can improve"
  	 	 	 	}
  	 	 	},
  	 	 	"goodReview": {
  	 	 	 	"title1": {
- 	 	 	 	 	"trans": "ว้าวขอบคุณมาก! ฉันรู้สึกเป็นเกียรติกรุณาทำให้เป็นทางการโดยออกจากหน้าร้านของเรา :)",
+ 	 	 	 	 	"trans": "ว้าว ขอบคุณมาก! ฉันรู้สึกเป็นเกียรติเป็นอย่างยิ่ง โปรดทำให้ความคิดเห็นนั้นเป็นทางการโดยการแสดงความคิดเห็นไว้ที่หน้าร้านค้าของเรา :)",
  	 	 	 	 	"eng": "Wow, thanks so much! I'm honored, please make it official by leaving them on our store page :)"
  	 	 	 	},
  	 	 	 	"title2": {
@@ -5700,7 +5700,7 @@
  	 	 	},
  	 	 	"noShowToggle": {
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "คุณสามารถดูการสอนเต็มรูปแบบที่โปรไฟล์> แท็บสอน",
+ 	 	 	 	 	"trans": "คุณสามารถดูการสอนเต็มรูปแบบที่โปรไฟล์ > แท็บสอน",
  	 	 	 	 	"eng": "You can see the full tutorial at Profile > Tutorial tab"
  	 	 	 	},
  	 	 	 	"label": {
@@ -5734,7 +5734,7 @@
  	},
  	"dungeonList": {
  	 	"newbieTip": {
- 	 	 	"trans": "คุณจะไม่รักษาหลังจากการต่อสู้แต่ละครั้งในดันเจี้ยนอย่าลืมใช้ไอเท็มรักษาของคุณ",
+ 	 	 	"trans": "คุณจะไม่ฟื้นฟูหลังจากการต่อสู้แต่ละครั้งในดันเจี้ยน อย่าลืมใช้ไอเท็มรักษาของคุณด้วย",
  	 	 	"eng": "You will not heal after each fight in dungeon, remember to use your healing items."
  	 	}
  	},
@@ -5744,7 +5744,7 @@
  	 	 	 	"trans": "เชิญชวน",
  	 	 	 	"eng": "Invite",
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "เชิญผู้เล่นคนอื่นเข้าร่วมแก๊งค์ของคุณ",
+ 	 	 	 	 	"trans": "เชิญผู้เล่นคนอื่นเข้าร่วมแก๊งของคุณ",
  	 	 	 	 	"eng": "Invite other players to join your gang."
  	 	 	 	}
  	 	 	},
@@ -5752,7 +5752,7 @@
  	 	 	 	"trans": "เตะ",
  	 	 	 	"eng": "Kick",
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "เตะผู้เล่นคนอื่นจากแก๊งค์ของคุณ",
+ 	 	 	 	 	"trans": "เตะผู้เล่นคนอื่นจากแก๊งของคุณ",
  	 	 	 	 	"eng": "Kick other players from your gang."
  	 	 	 	}
  	 	 	},
@@ -5791,11 +5791,11 @@
  	 	 	 	"eng": "I am Dexter, the developer of CyberCode Online."
  	 	 	},
  	 	 	"content3": {
- 	 	 	 	"trans": "หากคุณมีการเปลี่ยนแปลงสำรองบางอย่างจะมีประโยชน์มากหากคุณสามารถบริจาคเพื่อช่วยในการสนับสนุนและพัฒนาเกมอย่างต่อเนื่อง",
+ 	 	 	 	"trans": "หากคุณมีเงินเหลือนิดหน่อย นั่นจะมีประโยชน์มากหากคุณสามารถบริจาคเพื่อช่วยในการสนับสนุนและพัฒนาเกมอย่างต่อเนื่อง",
  	 	 	 	"eng": "If you have some spare change it would be very helpful if you could donate to help with continued support and development of the game."
  	 	 	},
  	 	 	"content4": {
- 	 	 	 	"trans": "โปรดบริจาคเท่านั้นหากคุณสะดวกสบายประโยชน์ทั้งหมดได้รับการออกแบบให้เป็นธรรมสำหรับผู้เล่นทุกคนและจะไม่ให้ความได้เปรียบในการเล่นเกม",
+ 	 	 	 	"trans": "กรุณาบริจาคเมื่อตอนที่คุณต้องการเท่านั้น ผลประโยชน์ทั้งหมดที่ได้รับหลังการบริจาคนั้นถูกออกแบบให้เป็นธรรมสำหรับผู้เล่นทุกคนและจะไม่ส่งผลกระทบต่อความได้เปรียบในการเล่นเกม",
  	 	 	 	"eng": "Please only donate if you are comfortable, all benefits are designed to be fair for all players and will not give an edge in gameplay."
  	 	 	}
  	 	},
@@ -5804,7 +5804,7 @@
  	 	 	"eng": "Monthly Subscription"
  	 	},
  	 	"TiersTitle": {
- 	 	 	"trans": "เทียร์บริจาค",
+ 	 	 	"trans": "ระดับชั้นของการบริจาค",
  	 	 	"eng": "Donation Tiers"
  	 	},
  	 	"unitPrice": {
@@ -5818,11 +5818,11 @@
  	 	 	"vars": [
  	 	 	 	"date"
  	 	 	],
- 	 	 	"trans": "ส่วนลดสิ้นสุดลงใน ${date}",
+ 	 	 	"trans": "ข้อเสนอส่วนลดจะสิ้นสุดลงใน ${date}",
  	 	 	"eng": "Discount ends in ${date}"
  	 	},
  	 	"permanentDescription": {
- 	 	 	"trans": "ชื่อนี้จะไม่มีวันหมดอายุ \\ nit กับบัญชีของคุณตลอดไป",
+ 	 	 	"trans": "ฉายานี้จะไม่มีวันหมดอายุ \\ nit กับบัญชีของคุณตลอดไป",
  	 	 	"eng": "This title will never expire.\\nIt stays with your account forever."
  	 	}
  	},
@@ -5831,7 +5831,7 @@
  	 	 	"vars": [
  	 	 	 	"tierName"
  	 	 	],
- 	 	 	"trans": "นี่เป็นตัวอย่างกรอบข้อความของ Tier ${tierName}",
+ 	 	 	"trans": "นี่เป็นตัวอย่างกรอบข้อความของ ระดับชั้น ${tierName}",
  	 	 	"eng": "example chat frame of ${tierName} Tier"
  	 	}
  	}
